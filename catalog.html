@@ -39,18 +39,23 @@
       </nav>
     </header>
     <main class="main-inner">
-      <header class="main-inner-header">
-        <h1 class="main-inner-title">Гостиницы Седоны</h1>
-        <ul class="breadcrumbs">
-          <li class="breadcrumbs-item">
-            <a class="breadcrumbs-item-link" href="index.html">
-              <span class="visually-hidden">Главная</span>
-            </a>
-          </li>
-          <li class="breadcrumbs-item">
-            <a class="breadcrumbs-item-link breadcrumbs-item-current" href="№">Гостиницы</a>
-          </li>
-        </ul>
+      <!--Блок формы с фильтрами-->
+      <section class="filter-block">
+        <!--Заколовок и хлебные крошки-->
+        <header class="main-inner-header">
+          <h1 class="main-inner-title">Гостиницы Седоны</h1>
+          <ul class="breadcrumbs">
+            <li class="breadcrumbs-item">
+              <a class="breadcrumbs-item-link" href="index.html">
+                <span class="visually-hidden">Главная</span>
+              </a>
+            </li>
+            <li class="breadcrumbs-item">
+              <a class="breadcrumbs-item-link breadcrumbs-item-current" href="№">Гостиницы</a>
+            </li>
+          </ul>
+        </header>
+        <!--Форма с фильтрами-->
         <section class="filters">
           <h2 class="visually-hidden">Фильтры</h2>
           <form class="filters-form" action="https://echo.htmlacademy.ru/" method="get">
@@ -105,7 +110,8 @@
             <button class="button" type="reset">Сбросить</button>
           </form>
         </section>
-      </header>
+      </section>
+      <!--Каталог-->
       <section class="catalog">
         <header class="catalog-header">
           <h2 class="catalog-title">Найдено гостиниц: <span class="counter">38</span></h2>
@@ -211,6 +217,7 @@
           </li>
         </ul>
       </section>
+
       <section class="subscribe subscribe-inner">
         <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
         <p class="subscribe-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
