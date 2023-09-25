@@ -5,7 +5,7 @@
     <title>HTML Academy: Седона</title>
   </head>
   <body>
-    <header class="main-header">
+    <header class="main-header" data-test="header">
       <nav class="main-nav">
         <a class="header-logo" href="index.html">
           <img class="header-logo-img" src="#" alt="Логотип «City of Sedona».">
@@ -38,9 +38,9 @@
         </ul>
       </nav>
     </header>
-    <main class="main-inner">
+    <main class="main-inner" data-test="main">
       <!--Блок формы с фильтрами-->
-      <section class="filter-block">
+      <section class="filter-block" data-test="filter">
         <!--Заколовок и хлебные крошки-->
         <header class="main-inner-header">
           <h1 class="main-inner-title">Гостиницы Седоны</h1>
@@ -112,7 +112,7 @@
         </section>
       </section>
       <!--Каталог-->
-      <section class="catalog">
+      <section class="catalog" data-test="catalog">
         <header class="catalog-header">
           <h2 class="catalog-title">Найдено гостиниц: <span class="counter">38</span></h2>
           <select class="select-control" aria-label="Сортировка">
@@ -233,7 +233,7 @@
           </li>
         </ul>
       </section>
-      <section class="subscribe subscribe-inner">
+      <section class="subscribe subscribe-inner" data-test="subscribe">
         <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
         <p class="subscribe-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
         <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
@@ -242,7 +242,7 @@
         </form>
       </section>
     </main>
-    <footer class="main-footer">
+    <footer class="main-footer" data-test="footer">
       <ul class="social-list">
         <li class="social-list-item">
           <a class="social-link" href="https://vk.com/htmlacademy">
