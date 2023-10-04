@@ -36,18 +36,6 @@ body {
   background-color: #756157;
 }
 
-.button-blue {
-  background-color: #82b3d3;
-}
-
-.button-transparent {
-  background-color: transparent;
-}
-
-.button-green {
-  background-color: #7db54f;
-}
-
 .title {
   font-size: 30px;
   line-height: 36px;
@@ -197,6 +185,7 @@ body {
 .subscribe-button {
   font-size: 20px;
   line-height: 36px;
+  background-color: #82b3d3;
 }
 
 .main-footer {
@@ -264,6 +253,14 @@ body {
   color: #000000;
 }
 
+.apply {
+  background-color: #82b3d3;
+}
+
+.reset {
+  background-color: transparent;
+}
+
 .select-control {
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
@@ -292,6 +289,14 @@ body {
 
 .price {
   text-align: right;
+}
+
+.hotel-card-fav {
+  background-color: #82b3d3;
+}
+
+.hotel-card-fav.active {
+  background-color: #7db54f;
 }
 
 .hotel-card-rating {
