@@ -116,6 +116,80 @@ body {
   text-align: center;
 }
 
+.services-description {
+  font-size: 22px;
+  line-height: 26px;
+}
+
 .services-item {
   background-color: rgba(131, 179, 211, 0.12);
+}
+
+.services-item-title {
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color:#000000;
+}
+
+/**Тема карточек сервисов с прозрачным фоном**/
+.theme-transparent {
+  background-color: transparent;
+}
+
+.hotel-search {
+  text-align: center;
+}
+
+.hotel-search-description {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.hotel-search-link {
+  font-size: 20px;
+  line-height: 36px;
+}
+
+.subscribe {
+  color: #ffffff;
+  text-align: center;
+  background-color: #3F5E72;
+  background-image: url("../images/subscribe-background.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+.subscribe-title {
+  color: #ffffff;
+}
+
+.email-label {
+  color: #000000;
+  opacity: 0.6;
+}
+
+.subscribe-button {
+  font-size: 20px;
+  line-height: 36px;
+  color: #ffffff;
+  background-color: #82b3d3;
+}
+
+.main-footer {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.main-footer a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.footer-tel {
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
 }

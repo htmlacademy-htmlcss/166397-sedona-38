@@ -78,7 +78,7 @@
             <h3 class="services-item-title">Жильё</h3>
             <p class="services-item-description">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
           </li>
-          <li class="services-item">
+          <li class="services-item theme-transparent">
             <h3 class="services-item-title">Еда</h3>
             <p class="services-item-description">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
           </li>
@@ -91,14 +91,15 @@
       <section class="hotel-search" data-test="search">
         <h2 class="hotel-search-title title">Заинтересовались?</h2>
         <p class="hotel-search-description">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-        <a class="hotel-search-link" href="#">Поиск гостиницы в Седоне</a>
+        <a class="hotel-search-link button" href="#">Поиск гостиницы в Седоне</a>
       </section>
       <section class="subscribe" data-test="subscribe">
-        <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
+        <h2 class="subscribe-title title">Подпишитесь на рассылку</h2>
         <p class="subscribe-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
         <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
-          <input type="text" name="subscribe-email" placeholder="Ваш e-mail">
-          <button class="button" type="submit">Подписаться</button>
+          <label class="email-label" for="subscribe-email">Ваш e-mail</label>
+          <input class="email-input" type="text" id="subscribe-email" name="subscribe-email" placeholder="Ваш e-mail">
+          <button class="subscribe-button button" type="submit">Подписаться</button>
         </form>
       </section>
     </main>
