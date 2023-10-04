@@ -282,9 +282,14 @@ body {
   color: #000000;
 }
 
+.price {
+  text-align: right;
+}
+
 .hotel-card-rating {
   font-size: 16px;
   line-height: 20px;
+  text-align: center;
   text-transform: uppercase;
   background-color: #f2f2f2;
 }
