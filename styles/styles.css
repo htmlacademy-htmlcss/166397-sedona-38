@@ -71,6 +71,14 @@ body {
   text-align: center;
 }
 
+.fav-counter {
+  font-size: 10px;
+  line-height: 10px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #7db54f;
+}
+
 .main-index, .main-inner {
   background-color: #ffffff;
 }
