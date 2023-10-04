@@ -86,7 +86,7 @@ body {
 .hero {
   color: #ffffff;
   text-align: center;
-  background-color: #3F5E72;
+  background-color: #3f5e72;
   background-image: url("../images/hero-pattern.svg"), url("../images/index-background.jpg");
   background-size: contain, cover;
   background-repeat: no-repeat;
