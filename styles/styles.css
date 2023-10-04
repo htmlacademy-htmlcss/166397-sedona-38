@@ -212,7 +212,7 @@ body {
   color: #ffffff;
   background-color: #3F5E72;
   background-image: url("../images/filter-background.jpg");
-  background-size: 100% auto;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -266,6 +266,10 @@ body {
 .button-view {
   color: #000000;
   text-decoration: none;
+}
+
+.button-view.active {
+  text-decoration: underline;
 }
 
 .hotel-card-link {
