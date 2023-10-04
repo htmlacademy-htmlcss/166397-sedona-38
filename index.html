@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
     <header class="main-header" data-test="header">
@@ -10,32 +11,30 @@
         <a class="header-logo">
           <img class="header-logo-img" src="images/logo.svg" width="140" height="70" alt="Логотип «City of Sedona».">
         </a>
-        <ul class="main-navigation">
-          <li class="main-navigation-item">
-            <a class="main-navigation-link main-navigation-current" href="#">Главная</a>
+        <ul class="main-navigation navigation">
+          <li class="main-navigation-item navigation-item">
+            <a class="main-navigation-link navigation-link main-navigation-current" href="#">Главная</a>
           </li>
-          <li class="main-navigation-item">
-            <a class="main-navigation-link" href="#">О Седоне</a>
+          <li class="main-navigation-item navigation-item">
+            <a class="main-navigation-link navigation-link" href="#">О Седоне</a>
           </li>
-          <li class="main-navigation-item">
-            <a class="main-navigation-link" href="catalog.html">Гостиницы</a>
+          <li class="main-navigation-item navigation-item">
+            <a class="main-navigation-link navigation-link" href="catalog.html">Гостиницы</a>
           </li>
         </ul>
-        <ul class="user-navigation">
-          <li class="user-navigation-item">
-            <a class="user-navigation-link" href="#">
+        <ul class="user-navigation navigation">
+          <li class="user-navigation-item navigation-item">
+            <a class="user-navigation-link navigation-link" href="#">
               <span class="visually-hidden">Поиск</span>
             </a>
           </li>
-          <li class="user-navigation-item">
-            <a class="user-navigation-link" href="#">
+          <li class="user-navigation-item navigation-item">
+            <a class="user-navigation-link navigation-link" href="#">
               <span class="visually-hidden">Избранное</span>
             </a>
           </li>
-          <li class="user-navigation-item">
-            <a class="user-navigation-link" href="#">Хочу сюда!</a>
-          </li>
         </ul>
+        <a class="want-here button" href="#">Хочу сюда!</a>
       </nav>
     </header>
     <main class="main-index" data-test="main">
@@ -44,7 +43,7 @@
         <img class="hero-logo" src="images/hero-logo.svg" width="458" height="352" alt="Логотип «Welcome to the gorgeous Sedona. Because the Grang Canyon sucks!».">
       </section>
       <section class="advantages" data-test="advantages">
-        <h2 class="advantages-title">Седона — небольшой городок в Аризоне, заслуживающий большего!</h2>
+        <h2 class="advantages-title title">Седона — небольшой городок в Аризоне, заслуживающий большего!</h2>
         <p class="advanteges-description">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
         <ul class="advantages-list">
           <li class="advantage">
@@ -52,15 +51,15 @@
             <p class="advantege-description">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
             <img class="advantage-image" src="images/street.jpg" width="800" height="385" alt="Улица Седоны.">
           </li>
-          <li class="advantage">
+          <li class="advantage theme-black">
             <h3 class="advantage-title">Небольшая площадь</h3>
             <p class="advantege-description">Все достопримечательности находятся очень близко</p>
           </li>
-          <li class="advantage">
+          <li class="advantage theme-black-second">
             <h3 class="advantage-title">Красивая дорога</h3>
             <p class="advantege-description">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
           </li>
-          <li class="advantage">
+          <li class="advantage theme-black">
             <h3 class="advantage-title">Мало туристов</h3>
             <p class="advantege-description">Большинство едет в Гранд Каньон и толпится там</p>
           </li>
@@ -72,7 +71,7 @@
         </ul>
       </section>
       <section class="services" data-test="advantages">
-        <h2 class="services-title">Приезжайте в Седону отдохнуть в комфорте и уюте!</h2>
+        <h2 class="services-title title">Приезжайте в Седону отдохнуть в комфорте и уюте!</h2>
         <p class="services-description">Опытный персонал и качественное обслуживание!</p>
         <ul class="services-list">
           <li class="services-item">
@@ -90,7 +89,7 @@
         </ul>
       </section>
       <section class="hotel-search" data-test="search">
-        <h2 class="hotel-search-title">Заинтересовались?</h2>
+        <h2 class="hotel-search-title title">Заинтересовались?</h2>
         <p class="hotel-search-description">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
         <a class="hotel-search-link" href="#">Поиск гостиницы в Седоне</a>
       </section>

@@ -1,0 +1,121 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+
+  background-color: #f2f2f2;
+}
+
+.button {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  background-color: #756157;
+}
+
+.title {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.main-header {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.navigation-link {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: capitalize;
+  text-decoration: none;
+  text-align: center;
+}
+
+.main-index, .main-inner {
+  background-color: #ffffff;
+}
+
+.hero {
+  color: #ffffff;
+  text-align: center;
+  background-color: #3F5E72;
+  background-image: url("../images/hero-pattern.svg"), url("../images/index-background.jpg");
+  background-size: contain, cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+.advantages {
+  text-align: center;
+}
+
+.advanteges-description {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.advantage {
+  color: #ffffff;
+  background-color: #82b3d3;
+}
+
+.advantage-title {
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+/**Темная тема текста карточек преимуществ**/
+.theme-black {
+  color: #333333;
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.theme-black h3 {
+  color: #000000;
+}
+
+.theme-black-second {
+  color: #333333;
+  background-color: rgba(131, 179, 211, 0.2);
+}
+
+.theme-black-second h3 {
+  color: #000000;
+}
+
+.services {
+  text-align: center;
+}
+
+.services-item {
+  background-color: rgba(131, 179, 211, 0.12);
+}
