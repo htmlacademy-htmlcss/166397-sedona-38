@@ -175,6 +175,11 @@ body {
   color: #ffffff;
 }
 
+.subscribe-description {
+  font-size: 22px;
+  line-height: 26px;
+}
+
 .email-label {
   color: #000000;
   opacity: 0.6;
