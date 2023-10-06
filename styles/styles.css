@@ -103,7 +103,7 @@ body {
   text-transform: uppercase;
 }
 
-/**Темная тема текста карточек преимуществ**/
+/**Темная тема текста для карточек преимуществ**/
 .theme-black {
   color: #333333;
   background-color: rgba(131, 179, 211, 0.12);
@@ -221,6 +221,7 @@ body {
   background-image: url("../images/filter-background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center bottom;
 }
 
 .main-inner-title {
