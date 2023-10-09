@@ -271,7 +271,7 @@ body {
 .main-footer {
   display: flex;
   justify-content: space-between;
-  padding: 0 40px;
+  padding: 40px 70px 30px;
 
   color: #000000;
 
@@ -356,6 +356,10 @@ body {
 
 .reset {
   background-color: transparent;
+}
+
+.catalog {
+  margin: 50px 70px 60px;
 }
 
 .select-control {
