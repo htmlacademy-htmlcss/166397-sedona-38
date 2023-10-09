@@ -48,7 +48,6 @@ body {
 .title {
   font-size: 30px;
   line-height: 36px;
-  font-weight: 700;
   color: #000000;
   text-transform: uppercase;
 }
@@ -111,10 +110,6 @@ body {
   background-color: #7db54f;
 }
 
-.want-here {
-  width: 160px;
-}
-
 .main-container {
   flex-grow: 1;
 }
@@ -141,13 +136,6 @@ body {
 .advanteges-description {
   font-size: 22px;
   line-height: 26px;
-}
-
-.advantages-list {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0;
-  padding: 0;
 }
 
 .advantage {
@@ -190,13 +178,6 @@ body {
   line-height: 26px;
 }
 
-.services-list {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0;
-  padding: 0;
-}
-
 .services-item {
   background-color: rgba(131, 179, 211, 0.12);
 }
@@ -229,8 +210,8 @@ body {
 
 .subscribe {
   color: #ffffff;
-
   text-align: center;
+
   background-color: #3f5e72;
   background-image: url("../images/subscribe-background.jpg");
   background-size: cover;
@@ -254,11 +235,17 @@ body {
 }
 
 .email-input {
-  font-family: "PT Sans", sans-serif;
+  font-family: inherit;
   font-size: 18px;
   line-height: 24px;
 
   background-color: #f2f2f2;
+}
+
+.email-input::placeholder {
+  color: #000000;
+
+  opacity: 0.6;
 }
 
 .subscribe-button {
@@ -271,7 +258,7 @@ body {
 .main-footer {
   display: flex;
   justify-content: space-between;
-  padding: 40px 70px 30px;
+  padding: 0 70px;
 
   color: #000000;
 
@@ -326,8 +313,7 @@ body {
 }
 
 .block-wrapper {
-  padding: 70px;
-  padding-top: 35px;
+  padding: 0 70px;
 }
 
 .filters-form {
@@ -352,7 +338,7 @@ body {
 }
 
 .text-input {
-  font-family: "PT Sans", sans-serif;
+  font-family: inherit;
   font-size: 18px;
   line-height: 24px;
   font-weight: 700;
@@ -368,11 +354,11 @@ body {
 }
 
 .catalog {
-  margin: 50px 70px 60px;
+  padding: 0 70px;
 }
 
 .select-control {
-  font-family: "PT Sans", sans-serif;
+  font-family: inherit;
   font-size: 18px;
   line-height: 21px;
   color: #333333;
@@ -414,6 +400,7 @@ body {
   line-height: 20px;
   text-align: center;
   text-transform: uppercase;
+
   background-color: #f2f2f2;
 }
 
@@ -425,11 +412,13 @@ body {
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
+
   background-color: #82b3d3;
 }
 
 .pagination-current {
   color: #000000;
+
   background-color: #f2f2f2;
 }
 
@@ -439,11 +428,13 @@ body {
   line-height: 26px;
   color: #000000;
   text-transform: lowercase;
+
   background-color: transparent;
 }
 
 .subscribe-inner {
   color: #333333;
+
   background: transparent;
 }
 
