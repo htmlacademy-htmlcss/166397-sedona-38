@@ -67,7 +67,7 @@ body {
 .main-nav {
   display: flex;
   width: 1060px;
-  padding: 0 40px;
+  padding: 0 70px;
 }
 
 .header-logo {
@@ -323,6 +323,15 @@ body {
 .breadcrumbs-item-link {
   text-decoration: none;
   color: #ffffff;
+}
+
+.block-wrapper {
+  padding: 70px;
+  padding-top: 35px;
+}
+
+.filters-form {
+  display: flex;
 }
 
 .filter-group-title {
