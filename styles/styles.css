@@ -86,7 +86,6 @@ body {
 
 .user-navigation {
   max-width: 110px;
-  margin-right: 20px;
 }
 
 .navigation-link {
@@ -108,6 +107,10 @@ body {
   color: #ffffff;
 
   background-color: #7db54f;
+}
+
+.want-here {
+  margin-left: 20px;
 }
 
 .main-container {
