@@ -320,6 +320,18 @@ body {
   display: flex;
 }
 
+.filter-group {
+  width: 151px;
+}
+
+.filter-price {
+  width: 288px;
+}
+
+.filter-buttons {
+  width: 191px;
+}
+
 .filter-group-title {
   font-size: 20px;
   font-weight: 700;
