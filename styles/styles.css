@@ -157,6 +157,7 @@ body {
 /*Темная тема текста для карточек преимуществ*/
 .theme-black {
   color: #333333;
+
   background-color: rgba(131, 179, 211, 0.12);
 }
 
@@ -166,6 +167,7 @@ body {
 
 .theme-black-second {
   color: #333333;
+
   background-color: rgba(131, 179, 211, 0.2);
 }
 
@@ -189,8 +191,8 @@ body {
 .services-item-title {
   font-size: 24px;
   line-height: 28px;
-  text-transform: uppercase;
   color:#000000;
+  text-transform: uppercase;
 }
 
 /*Тема карточек сервисов с прозрачным фоном*/
@@ -312,8 +314,8 @@ body {
 }
 
 .breadcrumbs-item-link {
-  text-decoration: none;
   color: #ffffff;
+  text-decoration: none;
 }
 
 .block-wrapper {
@@ -350,6 +352,7 @@ body {
 .text-label {
   line-height: 24px;
   color: #000000;
+
   opacity: 0.3;
 }
 
