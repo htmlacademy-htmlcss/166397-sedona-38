@@ -496,6 +496,12 @@ body {
   width: 151px;
 }
 
+.filter-group-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 .filter-price {
   width: 288px;
 }
