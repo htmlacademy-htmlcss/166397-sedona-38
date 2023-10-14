@@ -213,6 +213,10 @@ body {
   background-color: #82b3d3;
 }
 
+.advantage-reverse {
+  flex-direction: row-reverse;
+}
+
 .advantage-container {
   box-sizing: border-box;
   width: 400px;
