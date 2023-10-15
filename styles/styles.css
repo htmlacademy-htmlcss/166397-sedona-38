@@ -221,6 +221,7 @@ body {
 
 .advantage-container {
   box-sizing: border-box;
+  min-height: 385px;
   width: 400px;
   padding: 102px 85px;
 }
