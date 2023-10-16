@@ -159,8 +159,7 @@ body {
 }
 
 .hero {
-  padding-top: 51px;
-  padding-bottom: 82px;
+  padding: 51px 70px 82px;
 
   color: #ffffff;
 
