@@ -207,12 +207,15 @@ body {
 }
 
 .advantage {
-  display: flex;
-  flex-wrap: wrap;
-
   color: #ffffff;
 
   background-color: #82b3d3;
+}
+
+.advantage-wide {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 .advantage-reverse {
