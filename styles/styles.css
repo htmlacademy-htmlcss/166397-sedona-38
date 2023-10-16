@@ -74,6 +74,8 @@ body {
 }
 
 .main-header {
+  padding: 0 70px;
+
   color: #000000;
 }
 
@@ -81,7 +83,6 @@ body {
   display: flex;
   align-items: center;
   width: 1060px;
-  padding: 0 70px;
 }
 
 .header-logo {
@@ -113,11 +114,12 @@ body {
 }
 
 .user-navigation {
-  max-width: 110px;
+  max-width: 240px;
 }
 
 .navigation-link {
   display: block;
+  padding: 20px 16px;
 
   font-size: 20px;
   line-height: 24px;
@@ -130,15 +132,10 @@ body {
   background-color: #ffffff;
 }
 
-.main-navigation-link {
-  padding: 20px 16px;
-}
-
 .user-navigation-link {
   box-sizing: border-box;
   min-width: 44px;
   min-height: 64px;
-  padding: 22px 12px;
 }
 
 .favorite-counter {
@@ -146,6 +143,7 @@ body {
   line-height: 10px;
   text-align: center;
   color: #ffffff;
+  text-transform: lowercase;
 
   background-color: #7db54f;
 }
