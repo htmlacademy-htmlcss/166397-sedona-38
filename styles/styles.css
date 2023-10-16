@@ -656,6 +656,8 @@ body {
 
 .pagination {
   display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
   margin: 0;
   padding: 0;
   padding-top: 40px;
@@ -663,16 +665,14 @@ body {
   list-style: none;
 }
 
-.pagination-item:not(:last-child) {
-  margin-right: 8px;
-}
-
 .pagination-link {
   box-sizing: border-box;
-  display: block;
-  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 60px;
   height: 60px;
-  padding: 12px 18px;
+  padding: 0 10px;
 
   font-size: 20px;
   line-height: 36px;
