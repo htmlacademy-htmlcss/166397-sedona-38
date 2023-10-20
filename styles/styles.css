@@ -642,6 +642,11 @@ body {
   grid-column: 1 / -1;
 }
 
+.hotel-card-image {
+  display: block;
+  object-fit: contain;
+}
+
 .hotel-card-title {
   margin: 0;
 
