@@ -623,19 +623,31 @@ body {
 }
 
 .hotel-card {
+  display: flex;
+  flex-direction: column;
   padding: 20px;
 }
 
-.hotel-card-wrapper {
-  display: grid;
-  gap: 16px 20px;
-  grid-template-columns: repeat(2, 140px);
-  grid-template-rows: 212px min-content min-content min-content min-content;
+.hotel-card-image {
+  display: block;
+  object-fit: contain;
+}
+
+.hotel-description,
+.hotel-buttons,
+.hotel-marks {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.hotel-marks {
+  margin-bottom: 0;
 }
 
 .hotel-card-link {
   text-decoration: none;
-  grid-column: 1 / -1;
+  margin-bottom: 16px;
 }
 
 .hotel-card-title {
