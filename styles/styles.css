@@ -502,7 +502,6 @@ body {
 }
 
 .filter-group {
-  box-sizing: border-box;
   width: 151px;
 }
 
@@ -513,21 +512,12 @@ body {
   list-style: none;
 }
 
-.filter-infrastructure {
-  margin-right: 70px;
-}
-
-.filter-housing {
-  margin-right: auto;
-}
-
 .filter-price {
   width: 288px;
 }
 
 .filter-buttons {
   width: 191px;
-  margin-left: 70px;
 }
 
 .filter-group-title {
