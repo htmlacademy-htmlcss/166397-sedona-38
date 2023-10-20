@@ -622,17 +622,37 @@ body {
   list-style: none;
 }
 
+.hotel-card {
+  padding: 20px;
+}
+
+.hotel-card-wrapper {
+  display: grid;
+  gap: 16px 20px;
+  grid-template-columns: repeat(2, 140px);
+  grid-template-rows: 212px min-content min-content min-content min-content;
+}
+
 .hotel-card-link {
   text-decoration: none;
+  grid-column: 1 / -1;
 }
 
 .hotel-card-title {
+  margin: 0;
+
   font-size: 24px;
   line-height: 28px;
   color: #000000;
 }
 
+.hotel-type {
+  margin: 0;
+}
+
 .price {
+  margin: 0;
+
   text-align: right;
 }
 
