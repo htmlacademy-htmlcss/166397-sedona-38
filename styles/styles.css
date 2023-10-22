@@ -621,14 +621,11 @@ body {
 }
 
 .hotel-card {
-  padding: 20px;
-}
-
-.hotel-card-wrapper {
   display: grid;
   gap: 16px 20px;
   grid-template-columns: repeat(2, 140px);
   grid-template-rows: 212px min-content min-content min-content min-content;
+  padding: 20px;
 }
 
 .hotel-card-link {
