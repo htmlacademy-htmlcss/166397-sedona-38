@@ -376,8 +376,7 @@ body {
 }
 
 .subscribe-form {
-  display: grid;
-  grid-template-columns: repeat(2, 232px);
+  display: flex;
   justify-content: center;
   margin-top: 54px;
 }
