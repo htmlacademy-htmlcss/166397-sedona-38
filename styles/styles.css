@@ -605,11 +605,16 @@ body {
   color: #000000;
 }
 
+.filter-buttons {
+  margin-left: auto;
+}
+
 .filter-buttons .button {
   width: 191px;
 }
 
 .apply {
+  margin-bottom: 32px;
   background-color: #82b3d3;
 }
 
@@ -643,20 +648,12 @@ body {
 .button-view-list {
   display: flex;
   flex-wrap: wrap;
+  gap: 8px;
   margin: 0;
   margin-left: 70px;
   padding: 0;
 
   list-style: none;
-}
-
-.button-view-item {
-  margin-right: 8px;
-  margin-bottom: 8px;
-}
-
-.button-view-item:nth-child(3n) {
-  margin-right: 0;
 }
 
 .button-view {
@@ -668,10 +665,29 @@ body {
 
   color: #000000;
   text-decoration: none;
+
+  background-repeat: no-repeat;
+  background-size: 16px 14px;
+  background-position: center;
+  border-radius: 4px;
+  border: 2px solid #e5e5e5;
+}
+
+.button-table {
+  background-image: url("../images/table-button.svg");
+}
+
+.button-slideshow {
+  background-image: url("../images/slideshow-button.svg");
+}
+.button-list {
+  background-image: url("../images/list-button.svg");
 }
 
 .button-view.active {
   text-decoration: underline;
+
+  border: 2px solid #000000;
 }
 
 .hotel-cards {
