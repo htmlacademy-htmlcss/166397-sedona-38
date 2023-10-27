@@ -469,11 +469,23 @@ body {
 }
 
 .social-link {
+  position: relative;
+
   display: block;
   box-sizing: border-box;
   min-width: 47px;
   min-height: 40px;
   padding: 0 10px;
+}
+
+.social-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  margin: auto;
 }
 
 .footer-tel {
