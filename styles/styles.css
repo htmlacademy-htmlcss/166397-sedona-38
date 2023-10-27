@@ -540,6 +540,17 @@ body {
   margin-right: 28px;
 }
 
+.breadcrumbs-main {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+
+  background-image: url("../images/small-house-icon.svg");
+  background-repeat: no-repeat;
+  background-size: 12px 12px;
+  background-position: center;
+}
+
 .breadcrumbs-item-link {
   color: #ffffff;
   text-decoration: none;
