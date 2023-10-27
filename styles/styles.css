@@ -44,6 +44,11 @@ body {
 }
 
 .button {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 8px 18px;
+  border: none;
+
   font-family: inherit;
   font-size: 16px;
   line-height: 20px;
@@ -54,6 +59,8 @@ body {
   text-decoration: none;
 
   background-color: #756157;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .title {
@@ -148,6 +155,7 @@ body {
 }
 
 .want-here {
+  width: 160px;
   margin-left: 20px;
 }
 
@@ -343,6 +351,8 @@ body {
 }
 
 .hotel-search-link {
+  width: 376px;
+
   font-size: 20px;
   line-height: 36px;
 }
@@ -399,11 +409,13 @@ body {
 }
 
 .subscribe-button {
+  width: 232px;
+
   font-size: 20px;
   line-height: 36px;
 
-  border: none;
   background-color: #82b3d3;
+  border-radius: 0px 4px 4px 0px;
 }
 
 .main-footer {
@@ -546,6 +558,10 @@ body {
   color: #000000;
 }
 
+.filter-buttons .button {
+  width: 191px;
+}
+
 .apply {
   background-color: #82b3d3;
 }
@@ -667,12 +683,15 @@ body {
 }
 
 .hotel-card-rating {
+  padding: 8px 22px;
+
   font-size: 16px;
   line-height: 20px;
   text-align: center;
   text-transform: uppercase;
 
   background-color: #f2f2f2;
+  border-radius: 4px;
 }
 
 .pagination {
