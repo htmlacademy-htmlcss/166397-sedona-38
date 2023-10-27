@@ -142,16 +142,40 @@ body {
   box-sizing: border-box;
   min-width: 44px;
   min-height: 64px;
+
+  background-repeat: no-repeat;
+  background-size: 18px 18px;
+  background-position: center;
+}
+
+.user-navigation-search {
+  background-image: url("../images/search-icon.svg");
+}
+
+.user-navigation-favorite {
+  position: relative;
+  background-image: url("../images/favorite-icon.svg");
 }
 
 .favorite-counter {
+  position: absolute;
+  top: 11px;
+  right: 4px;
+
+  box-sizing: border-box;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+
   font-size: 10px;
   line-height: 10px;
+  font-weight: 400;
   text-align: center;
   color: #ffffff;
   text-transform: lowercase;
 
   background-color: #7db54f;
+  border-radius: 50%;
 }
 
 .want-here {
@@ -415,7 +439,7 @@ body {
   line-height: 36px;
 
   background-color: #82b3d3;
-  border-radius: 0px 4px 4px 0px;
+  border-radius: 0 4px 4px 0;
 }
 
 .main-footer {
