@@ -981,6 +981,8 @@ body {
   padding-top: 40px;
 
   list-style: none;
+
+  border-top: 1px solid #e6e6e6;
 }
 
 .pagination-link {
