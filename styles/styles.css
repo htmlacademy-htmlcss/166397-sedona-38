@@ -329,6 +329,8 @@ body {
 }
 
 .advantage-title {
+  position: relative;
+
   width: 172px;
   margin: 0 auto;
   margin-bottom: 62px;
@@ -338,29 +340,48 @@ body {
   text-transform: uppercase;
 }
 
+.advantage-title::after {
+  content:"";
+
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+
+  width: 60px;
+  height: 2px;
+  margin-left: -30px;
+
+  background-color: rgba(255, 255, 255, 0.30);
+}
+
 .advantage-description {
   margin: 0;
 }
 
 /*Темная тема текста для карточек преимуществ*/
-.theme-black {
+.theme-advantage-primary {
   color: #333333;
 
   background-color: rgba(131, 179, 211, 0.12);
 }
 
-.theme-black .advantage-title {
+.theme-advantage-primary .advantage-title {
   color: #000000;
 }
 
-.theme-black-second {
+.theme-advantage-secondary {
   color: #333333;
 
   background-color: rgba(131, 179, 211, 0.2);
 }
 
-.theme-black-second .advantage-title {
+.theme-advantage-secondary .advantage-title {
   color: #000000;
+}
+
+.theme-advantage-primary .advantage-title::after,
+.theme-advantage-secondary .advantage-title::after {
+  background-color: rgba(0, 0, 0, 0.30);
 }
 
 .services {
