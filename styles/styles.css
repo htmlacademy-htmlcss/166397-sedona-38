@@ -685,8 +685,6 @@ body {
 }
 
 .button-view.active {
-  text-decoration: underline;
-
   border: 2px solid #000000;
 }
 
@@ -755,6 +753,33 @@ body {
 
   background-color: #f2f2f2;
   border-radius: 4px;
+}
+
+.hotel-card-stars {
+  background-image: url("../images/star.svg");
+  background-repeat: space;
+  background-repeat-y: no-repeat;
+  background-position: left center;
+}
+
+.one-star {
+  background-repeat: no-repeat;
+}
+
+.two-stars {
+  width: 42px;
+}
+
+.three-stars {
+  width: 66px;
+}
+
+.four-stars {
+  width: 89px;
+}
+
+.five-stars {
+  width: 107px;
 }
 
 .pagination {
