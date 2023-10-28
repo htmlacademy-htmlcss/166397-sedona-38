@@ -63,6 +63,54 @@ body {
   cursor: pointer;
 }
 
+.button:hover {
+  background-color: #615048;
+}
+
+.button:focus {
+  background-color: #615048;
+}
+
+.button:active {
+  color: rgba(255, 255, 255, 0.30);
+}
+
+.button.disabled {
+  background-color: #e5e5e5;
+}
+
+.button-primary {
+  background-color: #82b3d3;
+}
+
+.button-primary:hover {
+  background-color: #68a2ca;
+}
+
+.button-primary:focus {
+  background-color: #68a2ca;
+}
+
+.button-secondary {
+  background-color: transparent;
+}
+
+.button-secondary:hover {
+  background-color: transparent;
+
+  opacity: 0.6;
+}
+
+.button-secondary:focus {
+  background-color: transparent;
+}
+
+.button-secondary.disabled {
+  color: rgba(255, 255, 255, 0.1);
+
+  background-color: transparent;
+}
+
 .title {
   font-size: 30px;
   line-height: 36px;
@@ -118,6 +166,23 @@ body {
 .main-navigation {
   width: 465px;
   margin-right: auto;
+}
+
+.main-navigation-current {
+  position: relative;
+}
+
+.main-navigation-current::after {
+  content: "";
+
+  position: absolute;
+  left: 16px;
+  right: 16px;
+  bottom: -1px;
+
+  height: 2px;
+
+  background-color: #756257;
 }
 
 .user-navigation {
@@ -438,7 +503,6 @@ body {
   font-size: 20px;
   line-height: 36px;
 
-  background-color: #82b3d3;
   border-radius: 0 4px 4px 0;
 }
 
@@ -615,11 +679,6 @@ body {
 
 .apply {
   margin-bottom: 32px;
-  background-color: #82b3d3;
-}
-
-.reset {
-  background-color: transparent;
 }
 
 .catalog {
@@ -735,12 +794,16 @@ body {
   text-align: right;
 }
 
-.hotel-card-favorite {
-  background-color: #82b3d3;
-}
-
 .hotel-card-favorite.active {
   background-color: #7db54f;
+}
+
+.hotel-card-favorite.active:hover {
+  background-color: #6c9e42;
+}
+
+.hotel-card-favorite.active:focus {
+  background-color: #6c9e42;
 }
 
 .hotel-card-rating {
