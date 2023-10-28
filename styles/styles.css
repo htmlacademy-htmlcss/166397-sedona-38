@@ -75,10 +75,6 @@ body {
   color: rgba(255, 255, 255, 0.3);
 }
 
-.button.disabled {
-  background-color: #e5e5e5;
-}
-
 .button-primary {
   background-color: #82b3d3;
 }
@@ -105,9 +101,40 @@ body {
   background-color: transparent;
 }
 
-.button-secondary.disabled {
-  color: rgba(255, 255, 255, 0.1);
+.button.disabled {
+  color: #ffffff;
 
+  background-color: #e5e5e5;
+  cursor: default;
+}
+
+.button.disabled:hover {
+  background-color: #e5e5e5;
+}
+
+.button.disabled:focus {
+  background-color: #e5e5e5;
+}
+
+.button.disabled:active {
+  background-color: #e5e5e5;
+}
+
+.button-secondary.disabled {
+  opacity: 0.1;
+
+  background-color: transparent;
+}
+
+.button-secondary.disabled:hover {
+  background-color: transparent;
+}
+
+.button-secondary.disabled:focus {
+  background-color: transparent;
+}
+
+.button-secondary.disabled:active {
   background-color: transparent;
 }
 
@@ -930,15 +957,15 @@ body {
   text-align: right;
 }
 
-.hotel-card-favorite.active {
+.favorite-button-active {
   background-color: #7db54f;
 }
 
-.hotel-card-favorite.active:hover {
+.favorite-button-active:not(.disabled):hover {
   background-color: #6c9e42;
 }
 
-.hotel-card-favorite.active:focus {
+.favorite-button-active:not(.disabled):focus {
   background-color: #6c9e42;
 }
 
