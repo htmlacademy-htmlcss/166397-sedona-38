@@ -1081,6 +1081,18 @@ body {
   color: #000000;
 }
 
+.pagination-more:hover {
+  background-color: transparent;
+}
+
+.pagination-more:focus {
+  background-color: transparent;
+}
+
+.pagination-more:active {
+  color: #000000;
+}
+
 .subscribe-inner {
   color: #333333;
 
