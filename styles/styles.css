@@ -616,6 +616,14 @@ body {
   fill-opacity: 0.3;
 }
 
+.footer-tel-container {
+  box-sizing: border-box;
+  width: 720px;
+  padding: 5px 194px;
+
+  cursor: pointer;
+}
+
 .footer-tel {
   width: 335px;
 
@@ -625,15 +633,15 @@ body {
   text-transform: uppercase;
 }
 
-.footer-tel:hover {
+.footer-tel-container:hover .footer-tel {
   color: #756157;
 }
 
-.footer-tel:focus {
+.footer-tel-container:focus .footer-tel {
   color: #756157;
 }
 
-.footer-tel:active {
+.footer-tel-container:active .footer-tel {
   color: rgba(117, 97, 87, 0.3);
 }
 
