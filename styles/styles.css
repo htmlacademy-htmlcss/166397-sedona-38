@@ -72,7 +72,7 @@ body {
 }
 
 .button:active {
-  color: rgba(255, 255, 255, 0.30);
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .button.disabled {
@@ -352,7 +352,7 @@ body {
   height: 2px;
   margin-left: -30px;
 
-  background-color: rgba(255, 255, 255, 0.30);
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .advantage-description {
@@ -382,7 +382,7 @@ body {
 
 .theme-advantage-primary .advantage-title::after,
 .theme-advantage-secondary .advantage-title::after {
-  background-color: rgba(0, 0, 0, 0.30);
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .services {
@@ -729,12 +729,12 @@ body {
   text-decoration: none;
 }
 
-.breadcrumbs-item-link:hover {
-  color: rgba(255, 255, 255, 0.6);
+.breadcrumbs-item-link:not(.breadcrumbs-item-current):hover {
+  opacity: 0.6;
 }
 
-.breadcrumbs-item-link:active {
-  color: rgba(255, 255, 255, 0.3);
+.breadcrumbs-item-link:not(.breadcrumbs-item-current):active {
+  opacity: 0.3;
 }
 
 .filters-form {
