@@ -414,11 +414,39 @@ body {
 }
 
 .services-item {
+  position: relative;
+
   box-sizing: border-box;
   width: 400px;
   padding: 80px 85px;
 
   background-color: rgba(131, 179, 211, 0.12);
+}
+
+.services-item::before {
+  content: "";
+
+  position: absolute;
+  top: 80px;
+  left: 50%;
+
+  width: 75px;
+  height: 72px;
+  margin-left: -38px;
+}
+
+.services-item-housing::before {
+  background-image: url("../images/house-icon.svg");
+}
+
+.services-item-food::before {
+  background-image: url("../images/burger-icon.svg");
+}
+
+.services-item-souvenirs::before {
+  height: 76px;
+
+  background-image: url("../images/gift-icon.svg");
 }
 
 .services-item-title {
@@ -437,7 +465,7 @@ body {
 }
 
 /*Тема карточек сервисов с прозрачным фоном*/
-.theme-transparent {
+.theme-services-primary {
   background-color: transparent;
 }
 
@@ -571,6 +599,20 @@ body {
   left: 0;
 
   margin: auto;
+
+  fill:#83b3d3;
+}
+
+.social-link:hover .social-icon {
+  fill: #68a2ca;
+}
+
+.social-link:focus .social-icon {
+  fill: #68a2ca;
+}
+
+.social-link:active .social-icon {
+  fill-opacity: 0.3;
 }
 
 .footer-tel {
