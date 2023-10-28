@@ -624,12 +624,38 @@ body {
   text-transform: uppercase;
 }
 
+.footer-tel:hover {
+  color: #756157;
+}
+
+.footer-tel:focus {
+  color: #756157;
+}
+
+.footer-tel:active {
+  color: rgba(117, 97, 87, 0.3);
+}
+
 .footer-logo {
   width: 115px;
 }
 
 .academy-logo {
   display: block;
+
+  fill: #000000;
+}
+
+.footer-logo:hover .academy-logo {
+  fill: #756157;
+}
+
+.footer-logo:focus .academy-logo {
+  fill: #756157;
+}
+
+.footer-logo:active .academy-logo {
+  fill-opacity: 0.3;
 }
 
 .block-wrapper {
