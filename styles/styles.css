@@ -181,6 +181,14 @@ body {
   margin-bottom: -6px;
 }
 
+.header-logo:not(.index-logo):hover {
+  opacity: 0.6;
+}
+
+.header-logo:not(.index-logo):active {
+  opacity: 0.3;
+}
+
 .header-logo-img {
   display: block;
 }
@@ -232,6 +240,14 @@ body {
   text-align: center;
 
   background-color: #ffffff;
+}
+
+.navigation-link:not(.main-navigation-current):hover {
+  opacity: 0.6;
+}
+
+.navigation-link:not(.main-navigation-current):active {
+  opacity: 0.3;
 }
 
 .user-navigation-link {
@@ -928,6 +944,14 @@ body {
 .hotel-card-link {
   text-decoration: none;
   grid-column: 1 / -1;
+}
+
+.hotel-card-link:hover {
+  opacity: 0.6;
+}
+
+.hotel-card-link:active {
+  opacity: 0.3;
 }
 
 .hotel-card-image {
