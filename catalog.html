@@ -70,7 +70,7 @@
                 </li>
               </ul>
             </fieldset>
-            <fieldset class="filter-group">
+            <fieldset class="filter-group filter-housing">
               <legend class="filter-group-title">Тип жилья:</legend>
               <ul class="filter-group-list">
                 <li class="filter-group-item">
@@ -91,14 +91,26 @@
               <legend class="filter-group-title">Стоимость, &#8381;:</legend>
               <ul class="filter-group-list">
                 <li class="filter-group-item">
-                  <label class="text-label" for="min-price">от</label>
-                  <input class="text-input" type="text" id="min-price" name="min-price" value="0">
+                  <label class="number-label" for="min-price">от</label>
+                  <input class="number-input field" type="number" id="min-price" name="min-price" value="0">
                 </li>
                 <li class="filter-group-item">
-                  <label class="text-label" for="max-price">до</label>
-                  <input class="text-input" type="text" id="max-price" name="max-price" value="9000">
+                  <label class="number-label" for="max-price">до</label>
+                  <input class="number-input field" type="number" id="max-price" name="max-price" value="9000">
                 </li>
               </ul>
+              <div class="range">
+                <div class="range-scale">
+                  <div class="range-bar" style="left: 0; width: 226px">
+                    <button class="range-toggle toggle-min">
+                      <span class="visually-hidden">Изменить минимальную цену</span>
+                    </button>
+                    <button class="range-toggle toggle-max">
+                      <span class="visually-hidden">Изменить максимальную цену</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
             </fieldset>
             <div class="filter-buttons">
               <button class="button apply button-primary" type="submit">Применить</button>
@@ -159,7 +171,7 @@
               <p class="hotel-type">Гостиница</p>
               <p class="price">От 5000 ₽</p>
               <a class="hotel-card-more button" href="#">Подробнее</a>
-              <a class="hotel-card-favorite button active" href="#">В избранном</a>
+              <a class="hotel-card-favorite button favorite-button-active" href="#">В избранном</a>
               <span class="hotel-card-stars four-stars">
                 <span class="visually-hidden">4 звезды</span>
               </span>
@@ -223,7 +235,8 @@
           <h2 class="subscribe-title title">Подпишитесь на рассылку</h2>
           <p class="subscribe-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
           <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
-            <input class="email-input" type="text" id="subscribe-email" name="subscribe-email" placeholder="Ваш e-mail">
+            <label class="visually-hidden" for="subscribe-email">Ваш e-mail</label>
+            <input class="email-input field" type="text" id="subscribe-email" name="subscribe-email" placeholder="Ваш e-mail">
             <button class="subscribe-button button button-primary" type="submit">Подписаться</button>
           </form>
         </section>
