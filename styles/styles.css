@@ -784,7 +784,16 @@ body {
 }
 
 .filter-group {
+  margin: 0;
+  margin-right: 70px;
+  padding: 0;
   width: 151px;
+
+  border: none;
+}
+
+.filter-housing {
+  margin-right: auto;
 }
 
 .filter-group-list {
@@ -794,12 +803,23 @@ body {
   list-style: none;
 }
 
+.filter-group-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.filter-group-item:last-child {
+  margin-bottom: 0;
+}
+
 .filter-price {
   width: 288px;
 }
 
 .filter-buttons {
   width: 191px;
+  padding-top: 56px;
 }
 
 .filter-group-title {
@@ -815,14 +835,73 @@ body {
   line-height: 23px;
 }
 
+.control-input[type="checkbox"],
+.control-input[type="radio"] {
+  position: relative;
+
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  margin-right: 16px;
+
+  background-color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  appearance: none;
+}
+
+.control-input[type="radio"] {
+  border-radius: 50%;
+}
+
+.control-input[type="checkbox"]:hover,
+.control-input[type="radio"]:hover {
+  opacity: 0.6;
+}
+
+.control-input[type="checkbox"]:focus,
+.control-input[type="radio"]:focus {
+  outline: 2px solid #83b3d3;
+}
+
+.control-input[type="checkbox"]:active,
+.control-input[type="radio"]:active {
+  opacity: 0.3;
+}
+
+.control-input[type="checkbox"]:checked {
+  background-image: url("../images/check-icon.svg");
+  background-repeat: no-repeat;
+  background-position: center top 5px;
+  background-size: 13px 10px;
+}
+
+.control-input[type="radio"]:checked:before {
+  content: "";
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -5px;
+  margin-left: -5px;
+
+  width: 10px;
+  height: 10px;
+  background-color: #3f5e72;
+  border-radius: 50%;
+}
+
 .filter-price .filter-group-list {
   display: flex;
   gap: 2px;
+  margin-bottom: 36px;
 }
 
 .filter-price .filter-group-item {
   position: relative;
   width: 143px;
+  margin-bottom: 0;
 }
 
 .field {
@@ -837,7 +916,6 @@ body {
   border: none;
   border-radius: 4px 0 0 4px;
   background-color: #f2f2f2;
-  appearance: none;
 }
 
 .field:hover,
@@ -871,14 +949,68 @@ body {
   width: 100%;
   box-sizing: border-box;
   padding-right: 45px;
+  appearance: textfield;
+}
+
+.number-input::-webkit-outer-spin-button,
+.number-input::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
 }
 
 .number-input[name="max-price"] {
   border-radius: 0 4px 4px 0;
 }
 
-.filter-buttons {
-  margin-left: auto;
+.range-scale {
+  position: relative;
+  height: 4px;
+
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.range-bar {
+  position: absolute;
+
+  height: 4px;
+
+  background-color: #ffffff;
+}
+
+.range-toggle {
+  position: absolute;
+
+  width: 20px;
+  height: 20px;
+
+  background-color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.range-toggle:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.range-toggle:focus {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  outline: 2px solid #83b3d3;
+}
+
+.range-toggle:active {
+  box-shadow: 0 7px 15px rgba(0, 0, 0, 0.4);
+  outline: 2px solid #83b3d3;
+}
+
+.toggle-min {
+  left: 0;
+  top: -8px;
+}
+
+.toggle-max {
+  right: 0;
+  top: -8px;
 }
 
 .filter-buttons .button {
