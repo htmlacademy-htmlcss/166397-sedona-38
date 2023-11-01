@@ -1038,10 +1038,29 @@ body {
 }
 
 .select-control {
+  padding: 14px 20px;
+  padding-right: 45px;
+
   font-family: inherit;
   font-size: 18px;
   line-height: 21px;
   color: #333333;
+
+  border-radius: 4px;
+  border: 2px solid #e5e5e5;
+  background-image: url("../images/arrow-down.svg");
+  background-repeat: no-repeat;
+  background-position: right 20px center;
+  appearance: none;
+}
+
+.select-control:hover,
+.select-control:focus {
+  border: 2px solid #68a2ca;
+}
+
+.select-control:disabled {
+  opacity: 0.3;;
 }
 
 .button-view-list {
