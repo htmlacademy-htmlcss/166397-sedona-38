@@ -899,6 +899,10 @@ body {
   opacity: 0.2;
 }
 
+.search-label-inner {
+  cursor: pointer;
+}
+
 .form-label-icon {
   position: relative;
 
@@ -1206,6 +1210,7 @@ body {
 }
 
 .field {
+  box-sizing: border-box;
   padding: 12px 20px;
 
   font-family: inherit;
@@ -1227,6 +1232,11 @@ body {
 .field:disabled,
 .field:disabled:hover {
   background-color: #e5e5e5;
+}
+
+.field:invalid,
+.field:focus:invalid {
+  box-shadow: inset 0 0 0 2px #ff5757;
 }
 
 .field::placeholder {
