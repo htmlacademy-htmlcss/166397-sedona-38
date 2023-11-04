@@ -1108,6 +1108,8 @@ body {
 
 .control-label {
   line-height: 23px;
+
+  cursor: pointer;
 }
 
 .control-input[type="checkbox"],
@@ -1148,21 +1150,21 @@ body {
 .control-input[type="checkbox"]:checked {
   background-image: url("../images/check-icon.svg");
   background-repeat: no-repeat;
-  background-position: center top 5px;
+  background-position: center center;
   background-size: 13px 10px;
 }
 
-.control-input[type="radio"]:checked:before {
+.control-input[type="radio"]:checked::before {
   content: "";
 
   position: absolute;
   top: 50%;
   left: 50%;
-  margin-top: -5px;
-  margin-left: -5px;
 
   width: 10px;
   height: 10px;
+
+  transform: translate(-50%, -50%);
   background-color: #3f5e72;
   border-radius: 50%;
 }
@@ -1175,6 +1177,7 @@ body {
 
 .filter-price .filter-group-item {
   position: relative;
+
   width: 143px;
   margin-bottom: 0;
 }
@@ -1212,12 +1215,13 @@ body {
 .number-label {
   position: absolute;
   right: 20px;
-  top: 12px;
+  top: 50%;
 
   line-height: 24px;
   color: #000000;
 
   opacity: 0.3;
+  transform: translateY(-50%);
 }
 
 .number-input {
@@ -1254,10 +1258,12 @@ body {
 
 .range-toggle {
   position: absolute;
+  top: 50%;
 
   width: 20px;
   height: 20px;
 
+  transform: translateY(-50%);
   background-color: #ffffff;
   border: none;
   border-radius: 4px;
@@ -1280,12 +1286,10 @@ body {
 
 .toggle-min {
   left: 0;
-  top: -8px;
 }
 
 .toggle-max {
   right: 0;
-  top: -8px;
 }
 
 .filter-buttons .button {
