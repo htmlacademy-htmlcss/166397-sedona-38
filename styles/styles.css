@@ -181,7 +181,8 @@ body {
   margin-bottom: -6px;
 }
 
-.header-logo:not(.index-logo):hover {
+.header-logo:not(.index-logo):hover,
+.header-logo:not(.index-logo):focus {
   opacity: 0.6;
 }
 
@@ -238,11 +239,10 @@ body {
   color: #000000;
   text-decoration: none;
   text-align: center;
-
-  background-color: #ffffff;
 }
 
-.navigation-link:not(.main-navigation-current):hover {
+.navigation-link:not(.main-navigation-current):hover,
+.navigation-link:not(.main-navigation-current):focus {
   opacity: 0.6;
 }
 
@@ -398,8 +398,8 @@ body {
 
   width: 60px;
   height: 2px;
-  margin-left: -30px;
 
+  transform: translateX(-50%);
   background-color: rgba(255, 255, 255, 0.3);
 }
 
@@ -481,7 +481,8 @@ body {
 
   width: 75px;
   height: 72px;
-  margin-left: -38px;
+
+  transform: translateX(-50%);
 }
 
 .services-item-housing::before {
@@ -928,7 +929,6 @@ body {
   cursor: pointer;
 }
 
-
 .tooltip-icon {
   display: block;
   width: 100%;
@@ -1068,7 +1068,8 @@ body {
   text-decoration: none;
 }
 
-.breadcrumbs-item-link:not(.breadcrumbs-item-current):hover {
+.breadcrumbs-item-link:not(.breadcrumbs-item-current):hover,
+.breadcrumbs-item-link:not(.breadcrumbs-item-current):focus {
   opacity: 0.6;
 }
 
@@ -1355,8 +1356,7 @@ body {
   appearance: none;
 }
 
-.select-control:hover,
-.select-control:focus {
+.select-control:hover {
   border: 2px solid #68a2ca;
 }
 
@@ -1407,12 +1407,9 @@ body {
   border: 2px solid #000000;
 }
 
-.button-view:hover {
-  border: 2px solid #000000;
-}
-
+.button-view:hover,
 .button-view:focus {
-  border: 2px solid #68a2ca;
+  border: 2px solid #000000;
 }
 
 .button-view:active {
@@ -1446,7 +1443,8 @@ body {
   grid-column: 1 / -1;
 }
 
-.hotel-card-link:hover {
+.hotel-card-link:hover,
+.hotel-card-link:focus {
   opacity: 0.6;
 }
 
@@ -1467,11 +1465,11 @@ body {
   color: #000000;
 }
 
-.hotel-type {
+.hotel-card-type {
   margin: 0;
 }
 
-.price {
+.hotel-card-price {
   margin: 0;
 
   text-align: right;
