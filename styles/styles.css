@@ -1234,7 +1234,9 @@ body {
   background-color: #e5e5e5;
 }
 
-.field:invalid,
+.field:invalid {
+  box-shadow: none;
+}
 .field:focus:invalid {
   box-shadow: inset 0 0 0 2px #ff5757;
 }
