@@ -168,7 +168,7 @@ body {
 
 .main-nav {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   width: 1060px;
 }
 
@@ -275,9 +275,10 @@ body {
   right: 4px;
 
   box-sizing: border-box;
-  width: 20px;
+  min-width: 20px;
+  max-width: 25px;
   height: 20px;
-  padding: 5px;
+  padding: 5px 4px;
 
   font-size: 10px;
   line-height: 10px;
@@ -287,11 +288,12 @@ body {
   text-transform: lowercase;
 
   background-color: #7db54f;
-  border-radius: 50%;
+  border-radius: 10px;
 }
 
 .want-here {
   width: 160px;
+  margin-top: 14px;
   margin-left: 20px;
 }
 
@@ -1612,7 +1614,7 @@ body {
 }
 
 .pagination-more:active {
-  color: #000000;
+  color: rgba(0, 0, 0, 0.3);
 }
 
 .subscribe-inner {
