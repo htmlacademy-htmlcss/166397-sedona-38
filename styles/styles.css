@@ -845,7 +845,7 @@ body {
   text-align: center;
 
   border-radius: 0;
-  appearance: none;
+  appearance: textfield;
 }
 
 .search-options .field::-webkit-outer-spin-button,
@@ -972,7 +972,7 @@ body {
 .tooltip-text::after {
   content: "";
 
-  position:absolute;
+  position: absolute;
   bottom: 100%;
   left: 0;
   right: 0;
