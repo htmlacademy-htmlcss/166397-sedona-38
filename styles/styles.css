@@ -856,12 +856,14 @@ img {
   text-align: center;
 
   border-radius: 0;
-  appearance: textfield;
+  -webkit-appearance: textfield;
+          appearance: textfield;
 }
 
 .search-options .field::-webkit-outer-spin-button,
 .search-options .field::-webkit-inner-spin-button {
-  appearance: none;
+  -webkit-appearance: none;
+          appearance: none;
   margin: 0;
 }
 
@@ -1166,7 +1168,8 @@ img {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  appearance: none;
+  -webkit-appearance: none;
+          appearance: none;
 }
 
 .control-input[type="radio"] {
@@ -1279,12 +1282,14 @@ img {
   width: 100%;
   box-sizing: border-box;
   padding-right: 45px;
-  appearance: textfield;
+  -webkit-appearance: textfield;
+          appearance: textfield;
 }
 
 .number-input::-webkit-outer-spin-button,
 .number-input::-webkit-inner-spin-button {
-  appearance: none;
+  -webkit-appearance: none;
+          appearance: none;
   margin: 0;
 }
 
@@ -1384,7 +1389,8 @@ img {
   background-image: url("../images/arrow-down.svg");
   background-repeat: no-repeat;
   background-position: right 20px center;
-  appearance: none;
+  -webkit-appearance: none;
+          appearance: none;
 }
 
 .select-control:hover {
