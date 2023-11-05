@@ -169,7 +169,9 @@ body {
 
 .main-nav {
   display: flex;
+  flex-wrap: wrap;
   align-items: flex-start;
+  justify-content: flex-end;
   width: 1060px;
 }
 
@@ -295,8 +297,7 @@ body {
 
 .want-here {
   width: 160px;
-  margin-top: 14px;
-  margin-left: 20px;
+  margin: 14px 0 14px 20px;
 }
 
 .main-container {
@@ -584,6 +585,7 @@ body {
 
 .email-input {
   flex-grow: 1;
+  min-height: 52px;
 }
 
 .subscribe-form .email-input::placeholder {
