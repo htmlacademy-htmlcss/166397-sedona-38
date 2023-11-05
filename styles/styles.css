@@ -577,6 +577,7 @@ body {
 .subscribe-form {
   display: flex;
   justify-content: center;
+  align-items: flex-start;
   width: 684px;
   margin-top: 54px;
 }
@@ -1564,7 +1565,7 @@ body {
   align-items: center;
   justify-content: center;
   min-width: 60px;
-  height: 60px;
+  min-height: 60px;
   padding: 0 10px;
 
   font-size: 20px;
@@ -1596,12 +1597,11 @@ body {
 }
 
 .pagination-link:hover {
-  border: 1px solid #82b3d3;
+  outline: 1px solid #82b3d3;
   background-color: #68a2ca;
 }
 
 .pagination-link:focus {
-  border: 1px solid #82b3d3;
   background-color: #68a2ca;
 }
 
@@ -1610,12 +1610,12 @@ body {
 }
 
 .pagination-current:hover {
-  border: none;
+  outline: none;
   background-color: #f2f2f2;
 }
 
 .pagination-current:focus {
-  border: none;
+  outline: none;
   background-color: #f2f2f2;
 }
 
