@@ -267,6 +267,7 @@ body {
 
 .user-navigation-favorite {
   position: relative;
+
   background-image: url("../images/favorite-icon.svg");
 }
 
@@ -1135,6 +1136,8 @@ body {
 }
 
 .control-label {
+  max-width: 105px;
+
   line-height: 23px;
 
   cursor: pointer;
@@ -1254,6 +1257,7 @@ body {
   top: 50%;
 
   line-height: 24px;
+  text-align: right;
   color: #000000;
 
   opacity: 0.3;
