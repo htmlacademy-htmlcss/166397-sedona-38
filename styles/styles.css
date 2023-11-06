@@ -1045,7 +1045,8 @@ img {
 .breadcrumbs {
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
+  column-gap: 30px;
+  row-gap: 10px;
   margin: 0;
   margin-bottom: 40px;
   padding: 0;
@@ -1482,7 +1483,7 @@ img {
   gap: 16px 20px;
   grid-template-columns: repeat(2, 140px);
   grid-template-rows: 212px 1fr;
-  padding: 19px;
+  padding: 19px 20px 20px 19px;
 
   border: 1px solid #e6e6e6;
   border-radius: 4px;
@@ -1581,7 +1582,7 @@ img {
   gap: 8px;
   margin: 0;
   padding: 0;
-  padding-top: 40px;
+  padding-top: 39px;
 
   list-style: none;
 
@@ -1626,7 +1627,7 @@ img {
 }
 
 .pagination-link:hover {
-  outline: 1px solid #82b3d3;
+  border: 1px solid #82b3d3;
   background-color: #68a2ca;
 }
 
@@ -1639,12 +1640,12 @@ img {
 }
 
 .pagination-current:hover {
-  outline: none;
+  border: none;
   background-color: #f2f2f2;
 }
 
 .pagination-current:focus {
-  outline: none;
+  border: none;
   background-color: #f2f2f2;
 }
 
