@@ -893,25 +893,24 @@ img {
 }
 
 .search-label-inner {
+  padding-left: 6px;
+
   cursor: pointer;
 }
 
 .form-label-icon {
-  position: relative;
+  display: flex;
 
   min-width: 85px;
   padding-right: 26px;
 }
 
 .tooltip {
-  position: absolute;
-  top: 50%;
-  right: 0;
+  position: relative;
 
   width: 26px;
   height: 26px;
-
-  transform: translateY(-50%);
+  margin-left: 11px;
 }
 
 .tooltip-toggle {
