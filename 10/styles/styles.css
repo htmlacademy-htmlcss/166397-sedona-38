@@ -893,16 +893,14 @@ img {
 }
 
 .search-label-inner {
-  padding-left: 6px;
-
   cursor: pointer;
 }
 
 .form-label-icon {
   display: flex;
+  align-items: center;
 
   min-width: 85px;
-  padding-right: 26px;
 }
 
 .tooltip {
@@ -948,7 +946,7 @@ img {
   display: none;
   width: 256px;
   margin-top: 15px;
-  padding: 21px 18px 23px 22px;
+  padding: 21px 18px 22px 22px;
 
   font-size: 16px;
   line-height: 20px;
@@ -958,7 +956,7 @@ img {
 
   border-radius: 10px;
   background-color: #333333;
-
+  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.3);
   transform: translateX(-50%);
 }
 
