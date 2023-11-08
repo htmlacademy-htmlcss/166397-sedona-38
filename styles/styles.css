@@ -806,6 +806,7 @@ img {
 }
 
 .modal-search .message {
+  min-height: 21px;
   margin: 0;
   margin-left: 137px;
   padding: 0 20px;
@@ -814,8 +815,6 @@ img {
 }
 
 .modal-search .error {
-  min-height: 21px;
-
   color: #ff5757;
 }
 
