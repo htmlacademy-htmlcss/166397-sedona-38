@@ -898,6 +898,7 @@ img {
 
 .form-label-icon {
   display: flex;
+  align-items: center;
 
   min-width: 85px;
 }
