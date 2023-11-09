@@ -1482,7 +1482,6 @@ img {
 
 .hotel-card-image {
   display: block;
-  object-fit: contain;
 }
 
 .hotel-card-title {
