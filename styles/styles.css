@@ -821,6 +821,11 @@ img {
 .search-options {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 23px;
+}
+
+.search-options .field-group {
+  margin-bottom: 0;
 }
 
 .search-options .modal-search-label {
